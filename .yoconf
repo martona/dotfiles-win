@@ -1,0 +1,6 @@
+#provider openai
+#model gpt-5.5
+provider anthropic
+#model claude-sonnet-4-6
+model claude-opus-4-8
+prefill_space true

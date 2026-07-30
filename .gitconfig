@@ -9,3 +9,5 @@
 [color "status"]
 	changed = green bold
 	untracked = cyan bold
+[safe]
+	directory = *

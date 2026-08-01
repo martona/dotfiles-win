@@ -114,6 +114,12 @@
                 "name": "commodoreplus4.lan (ssh)"
             },
             {
+                "commandline": "ssh.exe zeus.lan",
+                "guid": "{57d012f4-790b-4bfa-bb5e-05a97e83d1b5}",
+                "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
+                "name": "zeus.lan (ssh)"
+            },
+            {
                 "commandline": "ssh.exe hal9001.lan",
                 "guid": "{5d7198cb-2bd1-4dac-8fd2-0fcd2f358f75}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",

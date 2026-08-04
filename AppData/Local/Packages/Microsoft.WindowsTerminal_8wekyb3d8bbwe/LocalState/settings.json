@@ -1,10 +1,10 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
+    "actions": 
     [
         {
-            "command":
+            "command": 
             {
                 "action": "sendInput",
                 "input": "\u001b\r"
@@ -44,7 +44,7 @@
             "type": "remainingProfiles"
         }
     ],
-    "newTabPosition": "afterCurrentTab",
+    "newTabPosition": "afterLastTab",
     "profiles": 
     {
         "defaults": 
@@ -74,161 +74,169 @@
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "tabTitle": "powershell",
+                "source": "Windows.Terminal.PowershellCore",
                 "suppressApplicationTitle": true,
-                "source": "Windows.Terminal.PowershellCore"
+                "tabTitle": "powershell"
             },
             {
                 "guid": "{c31d53dc-0211-5a77-9df3-2fe170d085ce}",
                 "hidden": false,
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "wsl-ubuntu",
-                "suppressApplicationTitle": true,
                 "name": "wsl-ubuntu",
-                "source": "Microsoft.WSL"
+                "source": "Microsoft.WSL",
+                "suppressApplicationTitle": true,
+                "tabTitle": "wsl-ubuntu"
             },
             {
                 "commandline": "ssh.exe odin.lan",
                 "guid": "{bd4b9062-c370-4f01-85a4-52592eb65624}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "odin",
+                "name": "odin.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "odin.lan (ssh)"
+                "tabTitle": "odin"
             },
             {
                 "commandline": "ssh.exe bergamo.lan",
                 "guid": "{80a1ac6b-a5fc-4122-8466-4283463fbf01}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "bergamo",
+                "name": "bergamo.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "bergamo.lan (ssh)"
+                "tabTitle": "bergamo"
             },
             {
                 "commandline": "ssh.exe sapphirerapids.lan",
                 "guid": "{23c0fef6-c50f-4301-9a0c-28d24ad73c8a}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "sapphirerapids",
+                "name": "sapphirerapids.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "sapphirerapids.lan (ssh)"
+                "tabTitle": "sapphirerapids"
             },
             {
                 "commandline": "ssh.exe jupiter.lan",
                 "guid": "{fd660859-5897-400b-a304-2ddefd743026}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "jupiter",
+                "name": "jupiter.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "jupiter.lan (ssh)"
+                "tabTitle": "jupiter"
             },
             {
                 "commandline": "ssh.exe commodoreplus4.lan",
                 "guid": "{57d012f4-790b-4afa-bb5e-05a97e83d1b5}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "commodoreplus4",
+                "name": "commodoreplus4.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "commodoreplus4.lan (ssh)"
+                "tabTitle": "commodoreplus4"
             },
             {
                 "commandline": "ssh.exe zeus.lan",
                 "guid": "{57d012f4-790b-4bfa-bb5e-05a97e83d1b5}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "zeus",
+                "name": "zeus.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "zeus.lan (ssh)"
+                "tabTitle": "zeus"
             },
             {
                 "commandline": "ssh.exe hal9001.lan",
                 "guid": "{5d7198cb-2bd1-4dac-8fd2-0fcd2f358f75}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "hal9001",
+                "name": "hal9001.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "hal9001.lan (ssh)"
+                "tabTitle": "hal9001"
             },
             {
                 "commandline": "ssh.exe virtualboy.lan",
                 "guid": "{17f2e53c-2a7c-4733-b81e-891231a54c67}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "virtualboy",
+                "name": "virtualboy.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "virtualboy.lan (ssh)"
+                "tabTitle": "virtualboy"
             },
             {
                 "commandline": "ssh.exe memini.shetland-monster.ts.net",
                 "guid": "{f3631a55-4381-4623-a270-f60b1c6fb5c2}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "memini",
+                "name": "memini.shetland-monster.ts.net (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "memini.shetland-monster.ts.net (ssh)"
+                "tabTitle": "memini"
             },
             {
                 "commandline": "ssh.exe macstud.lan",
                 "guid": "{53314c8f-1810-4e04-a3a7-0cc9796ec9a6}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "macstud",
+                "name": "macstud.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "macstud.lan (ssh)"
+                "tabTitle": "macstud"
             },
             {
                 "commandline": "ssh.exe mbp.lan",
                 "guid": "{17f2e53c-2a7c-4733-b81e-89451a54c617}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "mbp",
+                "name": "mbp.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "mbp.lan (ssh)"
+                "tabTitle": "mbp"
             },
             {
                 "commandline": "ssh.exe macminivm.lan",
                 "guid": "{0722ffec-feaf-4d84-b348-1913fd1d3fa8}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "macminivm",
+                "name": "macminivm.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "macminivm.lan (ssh)"
+                "tabTitle": "macminivm"
             },
             {
                 "commandline": "ssh.exe thedonald.lan",
                 "guid": "{7c13b0c7-a316-4817-a544-dde06a2a95a0}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "thedonald",
+                "name": "thedonald.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "thedonald.lan (ssh)"
+                "tabTitle": "thedonald"
             },
             {
                 "commandline": "ssh.exe lemur.lan",
                 "guid": "{7c13b0c7-a316-4817-a544-dde06a2a95a1}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "lemur",
+                "name": "lemur.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "lemur.lan (ssh)"
+                "tabTitle": "lemur"
             },
             {
                 "commandline": "ssh.exe ubuntu@ec2-zfsrecv.shetland-monster.ts.net",
                 "guid": "{07831cf5-2ec8-451f-947e-cb146ab723cd}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "tabTitle": "ec2-zfsrecv",
+                "name": "ec2-zfsrecv.shetland-monster.ts.net (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "ec2-zfsrecv.shetland-monster.ts.net (ssh)"
+                "tabTitle": "ec2-zfsrecv"
             },
-             {
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "tabTitle": "powershell",
+            {
+                "commandline": "ssh.exe niggy.lan",
+                "guid": "{07123cf5-2ec8-451f-947e-cb146ab723cd}",
+                "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
+                "name": "niggy (ssh)",
                 "suppressApplicationTitle": true,
-                "name": "Windows PowerShell"
+                "tabTitle": "niggy"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "suppressApplicationTitle": true,
+                "tabTitle": "powershell"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "tabTitle": "cmd",
+                "name": "Command Prompt",
                 "suppressApplicationTitle": true,
-                "name": "Command Prompt"
+                "tabTitle": "cmd"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
-                "tabTitle": "azure",
-                "suppressApplicationTitle": true,
                 "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
+                "source": "Windows.Terminal.Azure",
+                "suppressApplicationTitle": true,
+                "tabTitle": "azure"
             }
-       ]
+        ]
     },
     "schemes": [],
     "themes": [],

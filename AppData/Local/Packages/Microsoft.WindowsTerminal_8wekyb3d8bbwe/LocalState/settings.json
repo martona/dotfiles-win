@@ -104,12 +104,12 @@
                 "tabTitle": "bergamo"
             },
             {
-                "commandline": "ssh.exe sapphirerapids.lan",
+                "commandline": "ssh.exe rapids.lan",
                 "guid": "{23c0fef6-c50f-4301-9a0c-28d24ad73c8a}",
                 "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
-                "name": "sapphirerapids.lan (ssh)",
+                "name": "rapids.lan (ssh)",
                 "suppressApplicationTitle": true,
-                "tabTitle": "sapphirerapids"
+                "tabTitle": "rapids"
             },
             {
                 "commandline": "ssh.exe jupiter.lan",

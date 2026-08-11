@@ -216,6 +216,14 @@
                 "tabTitle": "niggy"
             },
             {
+                "commandline": "ssh.exe frigate.lan",
+                "guid": "{08123cf5-2ec8-451f-947e-cb146ab723cd}",
+                "icon": "C:\\Users\\Marton\\AppData\\Local\\wsl\\{26c022d2-383a-4ed7-88e5-c9df54065f50}\\shortcut.ico",
+                "name": "frigate (ssh)",
+                "suppressApplicationTitle": true,
+                "tabTitle": "frigate"
+            },
+            {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
                 "suppressApplicationTitle": true,

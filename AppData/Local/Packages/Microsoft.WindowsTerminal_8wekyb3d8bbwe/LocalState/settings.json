@@ -36,7 +36,8 @@
         {
             "id": "User.claudeNewline",
             "keys": "shift+enter"
-        }
+        },
+        { "id": null, "keys": "alt+enter" }
     ],
     "newTabMenu": 
     [
